@@ -1,10 +1,15 @@
+import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 
 function Service (){
     return(
         <>
             <Navbar/>
-            <h1>This is Service</h1>
+            <Hero
+                cName="hero-mid"
+                heroImg={require("../assets/night.jpg")}
+                title="Service"
+            />
         </>
     )
 }

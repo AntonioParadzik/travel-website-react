@@ -1,10 +1,15 @@
+import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 
 function About (){
     return(
         <>
             <Navbar/>
-            <h1>This is About</h1>
+            <Hero
+                cName="hero-mid"
+                heroImg={require("../assets/night.jpg")}
+                title="About"
+            />
         </>
     )
 }

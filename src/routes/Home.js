@@ -1,10 +1,19 @@
 import Navbar from "../components/Navbar";
+import Hero from "../components/Hero";
 
 function Home (){
     return(
         <>
             <Navbar/>
-            <h1>This is Home</h1>
+            <Hero
+                cName="hero"
+                heroImg={require("../assets/12.jpg")}
+                title="Your Journey Your Story"
+                text="Choose Your Favourite Destination."
+                buttonText="Travel Plan"
+                url="/"
+                buttonClass="show"
+            />
         </>
     )
 }
