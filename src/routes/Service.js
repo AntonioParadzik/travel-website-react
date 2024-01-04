@@ -1,3 +1,4 @@
+import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 
@@ -10,6 +11,7 @@ function Service (){
                 heroImg={require("../assets/night.jpg")}
                 title="Service"
             />
+            <Footer/>
         </>
     )
 }

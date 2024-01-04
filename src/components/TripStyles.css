@@ -34,7 +34,7 @@
     border-radius: 7px;
 }
 
-.t-image:hover img{
+.t-image img:hover {
     transform: scale(1.3);
 }
 
