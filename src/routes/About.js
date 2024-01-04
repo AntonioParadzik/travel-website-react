@@ -1,3 +1,4 @@
+import AboutUs from "../components/AboutUs";
 import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
@@ -11,6 +12,7 @@ function About (){
                 heroImg={require("../assets/night.jpg")}
                 title="About"
             />
+            <AboutUs/>
             <Footer/>
         </>
     )
