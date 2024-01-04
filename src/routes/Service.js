@@ -1,6 +1,7 @@
 import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
+import Trip from "../components/Trip";
 
 function Service (){
     return(
@@ -11,6 +12,7 @@ function Service (){
                 heroImg={require("../assets/night.jpg")}
                 title="Service"
             />
+            <Trip/>
             <Footer/>
         </>
     )
